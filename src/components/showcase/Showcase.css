@@ -1,0 +1,79 @@
+.showcase .outer-div{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+   
+}
+.showcase .inner-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    width: 650px;
+}
+.showcase .inner-div .heading{
+    font-size: 50px;
+}
+.showcase .inner-div p{
+    font-size: 24px;
+    margin-top: 15px;
+}
+.showcase .inner-div .btn-div
+{
+    margin-top: 50px;
+    display: flex;
+}
+.showcase .inner-div button{
+    width: 230px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+.showcase .inner-div .submit{
+    background-color: white;
+    color:black;
+}
+.showcase .inner-div .view{
+   margin-left: 40px;
+   background-color: inherit;
+   border: 2px solid white;
+}
+.showcase img{
+    height: 450px;
+}
+@media(max-width:1400px)
+{
+    .showcase .outer-div{
+        flex-direction: column;
+    }
+    .showcase .inner-div {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        
+    }
+    .showcase .outer-div img{
+        height: 80%;
+        width: 80%;
+        margin: auto;
+    }
+    .showcase .inner-div {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    .showcase .inner-div .btn-div
+{
+    margin-top: 50px;
+   flex-direction: column;
+   margin: auto
+}
+
+.showcase .inner-div .view{
+   margin-top: 40px;
+   margin-left: 0px;
+}
+}

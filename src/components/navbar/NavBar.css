@@ -1,0 +1,104 @@
+.brand-title {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .brand-logo a{
+    text-decoration: none;
+  }
+  
+  .website-name {
+    font-size: 22px;
+    margin-left: 10px;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 90%;
+    top: 0;
+    left: 0;
+    
+    
+  }
+  
+  .brand-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem;
+  }
+  .brand-logo img{
+      padding-top: 20px;
+  }
+  .navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin: 2.5rem;
+  }
+  .small-menu{
+    font-size: 35px;
+    display: none;
+  }
+  .menu{
+    display: none;
+  }
+  .dropdown-content {
+    display: inherit;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .navbar-links li {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+   
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    font-size: 20px;
+    width: 180px;
+  }
+  
+  .navbar-links li a:hover {
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    background-color: rgb(255,255,255);
+    color: rgb(0,0,0);
+  }
+  
+  @media(max-width:1400px)
+{
+  .navbar-links ul {
+    display: none;
+  }
+  .small-menu{
+    display: inline-block;
+    margin-right: 20%;
+    
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+   .small-menu:hover{
+     cursor: pointer;
+   }
+
+}

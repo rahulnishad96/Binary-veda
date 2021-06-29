@@ -1,0 +1,86 @@
+.slackbot .outer-div{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+}
+.slackbot .inner-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 430px;
+    width: 650px;
+}
+.slackbot .inner-div .heading{
+    font-size: 50px;
+}
+.slackbot .inner-div p{
+    font-size: 24px;
+    margin-top: 15px;
+}
+.slackbot .inner-div .btn-div
+{
+    display: flex;
+    margin-top: 50px;
+}
+.slackbot .inner-div button{
+    width: 230px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+.slackbot .inner-div .submit{
+    background-color: white;
+    color:black;
+}
+.slackbot .inner-div .view{
+   margin-left: 40px;
+   background-color: inherit;
+   border: 2px solid white;
+}
+.slackbot img{
+    height: 450px;
+}
+@media(max-width:1400px)
+{
+    .slackbot .outer-div{
+        flex-direction: column;
+    }
+    .slackbot .inner-div {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        
+    }
+    .slackbot .outer-div img{
+        height: 80%;
+        width: 80%;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .slackbot .inner-div {
+        margin-top: 150px;
+    }
+    .slackbot .inner-div {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    .slackbot .inner-div .btn-div
+{
+    margin-top: 50px;
+   flex-direction: column;
+   margin: auto
+}
+.slackbot .inner-div .submit{
+    margin-top: 50px;
+}
+
+.slackbot .inner-div .view{
+   margin-top: 40px;
+   margin-left: 0px;
+}
+}
