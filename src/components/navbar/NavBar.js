@@ -20,7 +20,7 @@ function NavBar() {
         
           <ul>
           <li className="btn">
-              <a href="/contact">Why Marvel \/</a>
+              <a href="/contact">Why Marvel </a>
             </li>
             <li className="btn">
               <a href="/contact">Enterprice</a>
@@ -39,8 +39,18 @@ function NavBar() {
           </ul>
         </div>
         
-        <div className="small-menu"> ≡ </div>
-        
+        <div className="small-menu">
+        <div className="icon"> ≡ </div>
+        <div className="hidden-list">
+          <ul>
+            <li><a href="/">-</a></li>
+            <li><a href="/">Enterprice</a></li>
+            <li><a href="/">Pricing</a></li>
+            <li><a href="/">Sign in</a></li>
+            <li><a href="/">Sign Up free</a></li>
+          </ul>
+        </div>
+        </div>
       </nav>
     </div>
     )

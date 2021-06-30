@@ -80,6 +80,23 @@
     background-color: rgb(255,255,255);
     color: rgb(0,0,0);
   }
+  .hidden-list ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .icon{
+    display: inline;
+  }
+  .hidden-list li{
+    display: none;
+    line-height: 30px;
+  }
+  .hidden-list a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+  }
   
   @media(max-width:1400px)
 {
@@ -97,8 +114,16 @@
     text-decoration: none;
     display: block;
   }
-   .small-menu:hover{
-     cursor: pointer;
-   }
+  .icon{
+    display: inline;
+  }
+   .small-menu:hover .hidden-list li{
+    display: block;
+  }
+  .hidden-list li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+  }
 
 }
