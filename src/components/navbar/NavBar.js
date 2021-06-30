@@ -41,8 +41,6 @@ function NavBar() {
         
         <div className="small-menu"> ≡ </div>
         
-        
-        
       </nav>
     </div>
     )

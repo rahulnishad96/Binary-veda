@@ -1,14 +1,12 @@
 .slackbot .outer-div{
-    margin-top: 150px;
+    margin-top: 130px;
     display: flex;
     justify-content: space-around;
-    height: 600px;
 }
 .slackbot .inner-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 430px;
     width: 650px;
 }
 .slackbot .inner-div .heading{
@@ -51,12 +49,18 @@
     .slackbot .inner-div {
         display: flex;
         margin: auto;
-        justify-content: center;
-        
+       
+    }
+    .slackbot .inner-div .heading{
+        font-size: 40px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        width:100%;
+        padding: 0px;
     }
     .slackbot .outer-div img{
-        height: 80%;
-        width: 80%;
+        height: 90%;
+        width: 90%;
         margin: auto;
         margin-top: 100px;
         margin-bottom: 50px;
@@ -66,12 +70,12 @@
     }
     .slackbot .inner-div {
         text-align: center;
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
     .slackbot .inner-div .btn-div
 {
-    margin-top: 50px;
+    margin-top: 70px;
    flex-direction: column;
    margin: auto
 }

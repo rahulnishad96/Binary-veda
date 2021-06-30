@@ -9,7 +9,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 500px;
     width: 650px;
 }
 .showcase .inner-div .heading{
@@ -31,6 +30,7 @@
     border-radius: 30px;
     border: none;
     color: white;
+    margin-top: 30px;
 }
 .showcase .inner-div .submit{
     background-color: white;
@@ -55,6 +55,10 @@
         justify-content: center;
         
     }
+    .showcase .inner-div .heading{
+        font-size: 40px;
+        margin-top: 50px;
+    }
     .showcase .outer-div img{
         height: 80%;
         width: 80%;
@@ -62,18 +66,34 @@
     }
     .showcase .inner-div {
         text-align: center;
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
     .showcase .inner-div .btn-div
-{
-    margin-top: 50px;
+    {
+    margin-top: 70px;
    flex-direction: column;
    margin: auto
-}
+    }
 
-.showcase .inner-div .view{
+    .showcase .inner-div .view{
    margin-top: 40px;
    margin-left: 0px;
-}
+    }
+    .showcase .inner-div h1{
+        font-size: 45px;
+    }
+    .showcase .outer-div img{
+        height: 80%;
+        width: 90%;
+        margin: auto;
+    }
+    .showcase .inner-div button{
+        width: 200px;
+        padding: 18px;
+        font-size: 18px;
+        border-radius: 30px;
+        border: none;
+    }
+
 }

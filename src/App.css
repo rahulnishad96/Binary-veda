@@ -3,6 +3,9 @@
   background-color: rgb(12,16,20);
   color: white;
 }
+button{
+  cursor: pointer;
+}
 *{
   box-sizing: border-box;
   margin: 0;
